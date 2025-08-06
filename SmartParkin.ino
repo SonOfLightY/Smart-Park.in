@@ -31,9 +31,9 @@ const float batasJarak = 40.0;
 const float batasBerat = 30.0;
 
 bool eventPending = false;
-int pendingSensor = 0; // 1 = luar dulu, 2 = dalam dulu
+int pendingSensor = 0; 
 unsigned long pendingTime = 0;
-const unsigned long maxWeightDelay = 1500; // 1.5 detik
+const unsigned long maxWeightDelay = 1500;
 
 Preferences prefs;
 unsigned long lastSave = 0;
